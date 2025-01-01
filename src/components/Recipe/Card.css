@@ -1,0 +1,11 @@
+.controls {
+    transform: translateY(50%);
+    opacity: 0;
+    transition: 0.2s all ease-in-out;
+}
+
+
+.card:hover .controls {
+    opacity: 1;
+    transform: translateY(0);
+}
